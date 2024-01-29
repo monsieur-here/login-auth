@@ -57,6 +57,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+# Working on TodoList Application with Login Authentication
+
+The goal was to use Redux in the Todo List created in the HomePage to perform Add, Edit and Delete Tasks. We also need to update the status of the tasks to [TODO, IN_PROGRESS, COMPLETED]
+All this needs to hapen after authorising a user logged in with the access token and logout after the refresh token expires. Preferred API - Postman to generate response in the form of JWT for a particular request.
+
+Updated the UI for HomePage and Login
+Added this request in the AuthContext containing axios but I don't understand even after closely following many videos, I ended up with a 401 Unauthorized error.
+
+Tried refreshing, updating the browser but it always is ending up in errors like AxiosError, in another instance it logs in but the Network Section in Devtools generates some other response like "304 not modified", when "201 OK" was supposed to be generated... 
+
+I would like to please revert back to me for some feedback so that I can update this project accordingly.
+
 ### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
